@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/sendsms"
+        android:orderInCategory="100"
+        app:showAsAction="always|withText"
+        android:icon="@drawable/sms"
+        android:title="Send me" />
+    <item
+        android:id="@+id/action_setting"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="Setting" />
+</menu>
